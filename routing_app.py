@@ -4,7 +4,6 @@ from streamlit_folium import folium_static, st_folium
 
 import requests
 from geopy.geocoders import Nominatim
-from shapely.geometry import LineString
 
 APP_TITLE = "Routing App"
 APP_SUB_TITLE = "Using OpenRouteService Direction API"
